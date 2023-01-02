@@ -122,7 +122,7 @@ function Brands() {
             <div className="2xl:mx-auto 2xl:container px-4 md:px-6 2xl:px-0 py-16 flex justify-center">
             <div className="fle flex-col justify-center items-center">
                 
-                <div className="grid text-center md:grid-cols-2 lg:grid-cols-4 justify-items-between mt-8 gap-y-8 lg:gap-y-0 gap-x-8">
+                <div className="grid  md:grid-cols-2 lg:grid-cols-4 justify-items-between mt-8 gap-y-8 lg:gap-y-0 gap-x-8">
                     <div className="flex items-start flex-col">
                         <div className="relative flex justify-center items-center  py-12 px-16">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/d/df/TOSHIBA_Logo.png" alt="Chargers" />
