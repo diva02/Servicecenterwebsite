@@ -5,7 +5,7 @@ function Brands() {
         <><div className="2xl:mx-auto 2xl:container px-4 md:px-6 2xl:px-0 py-16 flex justify-center">
             <div className="flex flex-col justify-center items-center">
                 <div className="flex justify-start items-start">
-                    <p className="text-3xl lg:text-4xl font-semibold leading-9 text-indigo-700">Brands Available</p>
+                    <p className="text-4xl lg:text-6xl font-semibold leading-9 text-indigo-700">Brands Available</p>
                 </div>
                 <div className="grid md:grid-cols-2 lg:grid-cols-4 justify-items-between mt-8 gap-y-8 lg:gap-y-0 gap-x-8">
                     <div className="flex items-start flex-col">
@@ -15,7 +15,6 @@ function Brands() {
                         </div>
                         <div className="flex flex-col items-start jusitfy-start mt-3 space-y-3">
                             <div>
-                                <p className="text-lg  font-medium leading-4 text-gray-800">ACER</p>
                             </div>
                            
                         </div>
@@ -28,7 +27,6 @@ function Brands() {
                         </div>
                         <div className="flex flex-col items-start jusitfy-start mt-3 space-y-3">
                             <div>
-                                <p className="text-lg font-medium leading-4 text-gray-800">ASUS</p>
                             </div>
                            
                         </div>
@@ -41,7 +39,6 @@ function Brands() {
                         </div>
                         <div className="flex flex-col items-start jusitfy-start mt-3 space-y-3">
                             <div>
-                                <p className="text-lg font-medium leading-4 text-gray-800">DELL</p>
                             </div>
                             
                         </div>
@@ -54,7 +51,6 @@ function Brands() {
                         </div>
                         <div className="flex flex-col items-start jusitfy-start mt-3 space-y-3">
                             <div>
-                                <p className="text-lg font-medium leading-4 text-gray-800">SONY</p>
                             </div>
                             
                         </div>
@@ -72,7 +68,6 @@ function Brands() {
                             </div>
                             <div className="flex flex-col items-start jusitfy-start mt-3 space-y-3">
                                 <div>
-                                    <p className="text-lg font-medium leading-4 text-gray-800">HP</p>
                                 </div>
                                 
                             </div>
@@ -85,7 +80,6 @@ function Brands() {
                             </div>
                             <div className="flex flex-col items-start jusitfy-start mt-3 space-y-3">
                                 <div>
-                                    <p className="text-lg font-medium leading-4 text-gray-800">LENOVO</p>
                                 </div>
                                 
                             </div>
@@ -98,7 +92,6 @@ function Brands() {
                             </div>
                             <div className="flex flex-col items-start jusitfy-start mt-3 space-y-3">
                                 <div>
-                                    <p className="text-lg font-medium leading-4 text-gray-800">SAMSUNG</p>
                                 </div>
                                 
                             </div>
@@ -111,7 +104,6 @@ function Brands() {
                             </div>
                             <div className="flex flex-col items-start jusitfy-start mt-3 space-y-3">
                                 <div>
-                                    <p className="text-lg font-medium leading-4 text-gray-800">MAC BOOK</p>
                                 </div>
                                
                             </div>
@@ -130,7 +122,6 @@ function Brands() {
                         </div>
                         <div className="flex flex-col items-start jusitfy-start mt-3 space-y-3">
                             <div>
-                                <p className="text-lg font-medium leading-4 text-gray-800">TOSHIBA</p>
                             </div>
                             
                         </div>
@@ -147,7 +138,6 @@ function Brands() {
                         </div>
                         <div className="flex flex-col items-start jusitfy-start mt-3 space-y-3">
                             <div>
-                                <p className="text-lg font-medium leading-4 text-gray-800">MSI</p>
                             </div>
                             
                         </div>
@@ -159,7 +149,6 @@ function Brands() {
                         </div>
                         <div className="flex flex-col items-start jusitfy-start mt-3 space-y-3">
                             <div>
-                                <p className="text-lg font-medium leading-4 text-gray-800">REDMI</p>
                             </div>
                             
                         </div>

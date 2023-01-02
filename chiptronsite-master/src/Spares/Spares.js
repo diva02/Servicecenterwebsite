@@ -2,7 +2,8 @@ import React from "react";
 
 const Spares = () => {
     return (
-        <><div className="2xl:mx-auto 2xl:container px-4 md:px-6 2xl:px-0 py-16 flex justify-center">
+        <><br /><br />
+        <div className=" pt-9 2xl:mx-auto 2xl:container px-4 md:px-6 2xl:px-0 py-16 flex justify-center">
             <div className="flex flex-col justify-center items-center">
                 <div className="flex justify-start items-start">
                     <p className="text-3xl lg:text-4xl font-semibold leading-9 text-indigo-700">Spares & Accessories Available</p>
