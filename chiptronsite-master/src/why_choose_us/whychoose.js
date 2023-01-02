@@ -42,7 +42,7 @@ function WhyChooseUs() {
                     </div>
                     <div class="flex justify-center w-full py-6 border-b">
                         
-                        <img src="https://cdn3.iconfinder.com/data/icons/finance-business-10/32/Service-Care-Quick-Fast-512.png" className="sm:h-8 sm:w-11 xl:h-28 xl:w-28" height={"100"} width={"100"} alt="" />
+                        <img src="https://cdn3.iconfinder.com/data/icons/finance-business-10/32/Service-Care-Quick-Fast-512.png" className="sm:h-7 sm:w-10 xl:h-28 xl:w-28" height={"100"} width={"100"} alt="" />
                         <div class="text-gray-800 w-1/2 pl-12">
                             <h1 class="font-bold text-2xl lg:text-4xl tracking-1px">Faster Services</h1>
                             <h2 class="text-base lg:text-lg mt-4 leading-8 tracking-wide">Faster than any other service center,we fix and diagnose the faults</h2>
