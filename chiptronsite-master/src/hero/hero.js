@@ -41,7 +41,7 @@ export default function Hero() {
                             <button className="hover:bg-white hover:text-indigo-600 lg:text-xl hover:border-indigo-600 ml-3 sm:ml-6 bg-transparent transition duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 ring-offset-indigo-700 focus:ring-white hover:bg-indigo-700-800 rounded border border-white text-white px-4 sm:px-8 py-1 sm:py-3 text-sm">Learn More</button>
                         </div> */}
                     </div>
-                    <div className="container mx-auto flex justify-center md:-mt-80 -mt-20 sm:-mt-40">
+                    <div className="container mx-auto flex justify-center md:-mt-60 -mt-15 sm:-mt-40">
                         <div className="relative sm:w-3/5 w-7/12 md:w-1/2">
                             {/* <img src="https://tuk-cdn.s3.amazonaws.com/assets/components/hero/h_2.png" alt="Sample Page" role="img" /> */}
                             <Lottie animationData={Service} className=" pb-0 " />
