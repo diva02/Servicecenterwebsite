@@ -100,7 +100,6 @@ systems.</p>
                                         </div>
                                         <div className="mt-4 md:mt-8">
                                             <h2 className="text-sm md:text-base text-indigo-700 font-semibold">Email</h2>
-                                            <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider mt-2">business@titankustoms.com</h2>
                                             <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider mt-2">support@chiptronix.in</h2>
                                             <p className="text-gray-500 text-base md:text-lg leading-8 tracking-wider mt-2">Send us your query anytime!</p>
 
