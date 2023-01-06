@@ -5,10 +5,10 @@ export default function Contact() {
      {/* About */}
         <div>
             <div className="2xl:mx-auto 2xl:container 2xl:px-20 px-6 ">
-                <div className="flex md:flex-row flex-col-reverse md:items-stretch items-center justify-center">
+                <div className="flex md:flex-row flex-col-reverse md:items-stretch lg:items-stretch items-center justify-center">
                     <div className="md:py-20 xl:w-1/2 sm:w-1/2 lg:mr-20 md:mr-6 flex flex-col md:items-end items-center justify-center xl:mr-28">
                         <div className="flex flex-col items-center justify-center">
-                            <h1 className="md:text-5xl text-3xl font-bold text-center text-gray-800">About Us</h1>
+                            <h1 className="md:text-5xl text-3xl font-bold text-center text-indigo-800">About Us</h1>
                             <p className="sm:w-96 w-full mt-6 text-base leading-6 text-center text-gray-600">Chiptronix is a Complete Computer and Accessories Store started in 2016 by a group of Tech Enthutiasists to Deliver excellence in Science and Technology and currently offering solutions and Services all over India</p>
                             <div className="md:mt-14 mt-12 flex flex-col items-center">
                                 <div className="w-20 h-20 bg-white shadow rounded-full flex items-center justify-center" role="img" aria-label="money">
@@ -70,7 +70,7 @@ systems.</p>
                     </div>
                     <div className="py-12 xl:w-1/2 lg:w-1/3 sm:w-1/2">
                         <img src="https://images.squarespace-cdn.com/content/v1/5a132025be42d634395e16f2/1602132207761-M90SE3G7HUU3LU5YOSK0/Laptop+Repair.jpg?format=1500w" alt="" className="h-full rounded-md object-cover object-center md:block hidden" />
-                        <img src="https://images.squarespace-cdn.com/content/v1/5a132025be42d634395e16f2/1602132207761-M90SE3G7HUU3LU5YOSK0/Laptop+Repair.jpg?format=1500w" alt="image ow a woman studying" className="h-auto w-auto md:hidden block" />
+                        <img src="https://images.squarespace-cdn.com/content/v1/5a132025be42d634395e16f2/1602132207761-M90SE3G7HUU3LU5YOSK0/Laptop+Repair.jpg?format=1500w" alt="Our Work" className="h-auto w-auto md:hidden block" />
                     </div>
                 </div>
             </div>
