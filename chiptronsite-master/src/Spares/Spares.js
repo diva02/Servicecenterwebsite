@@ -5,7 +5,7 @@ const Spares = () => {
         <><br /><br />
         <div className=" pt-9 2xl:mx-auto 2xl:container px-4 md:px-6 2xl:px-0 py-16 flex justify-center">
             <div className="flex flex-col justify-center items-center">
-                <div className="flex justify-start items-start">
+                <div className="flex justify-center items-start">
                     <p className="text-3xl lg:text-4xl font-bold lg:shadow-2xl leading-9 text-indigo-700">Spares & Accessories Available</p>
                 </div>
                 <div className=" pt-10 grid md:grid-cols-2 lg:grid-cols-3 justify-items-between mt-8 gap-y-8 lg:gap-y-0 gap-x-8">
