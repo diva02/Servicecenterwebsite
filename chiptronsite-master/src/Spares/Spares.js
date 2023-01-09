@@ -1,8 +1,10 @@
 import React from "react";
+import Appbar from "../AppBar/AppBar";
 
 const Spares = () => {
     return (
-        <><br /><br />
+        <><Appbar />
+        <br /><br />
         <div className=" pt-9 2xl:mx-auto 2xl:container px-4 md:px-6 2xl:px-0 py-16 flex justify-center">
             <div className="flex flex-col justify-center items-center">
                 <div className="flex justify-center items-start">

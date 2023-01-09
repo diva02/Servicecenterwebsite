@@ -5,13 +5,20 @@ import OurService from "../shopservices/shopservice";
 import WhyChooseUs from "../why_choose_us/whychoose";
 import Reservation from "../Reservation/reservation";
 import Brands from "../Brands/Brands";
+import Slideshow from "../Slide show/slideshow";
+import Caro from "../Slide show/carousal";
+import Appbar from "../AppBar/AppBar";
 export default function Hero() {
     const [show, setShow] = useState(null);
     
     return (
         <>
-            
-        <div className="pt-12 bg-white overflow-y-hidden">
+            <div className="">
+            <Caro /> 
+            </div>
+<Appbar />
+        <div className=" pb-72 pt-10 bg-white overflow-y-hidden">
+        
             {/* Code block starts */}
             <dh-component>
                 <nav className="w-full">
@@ -29,8 +36,9 @@ export default function Hero() {
                         </div>
                     </div>
                 </nav>
+                
                 <div className="w-full ">
-                    <div className="mt-0 relative rounded-lg bg-indigo-700 w-fill flex flex-col items-center pt-10 sm:pt-24 pb-24 sm:pb-32 md:pb-48 lg:pb-56 xl:pb-64">
+                    <div className="mt-0 relative rounded-lg bg-indigo-700 w-fill flex flex-col items-center pt-0 sm:pt-24 pb-24 sm:pb-32 md:pb-48 lg:pb-56 xl:pb-64">
                         <img className="mr-2 lg:mr-12 mt-2 lg:mt-12 absolute right-0 top-0" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/center_aligned_with_image-svg2.svg" alt="bg" />
                         <img className="ml-2 lg:ml-12 mb-2 lg:mb-12 absolute bottom-0 left-0" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/center_aligned_with_image-svg3.svg" alt="bg" />
                         <div className="w-11/12 sm:w-2/3 mb-5 sm:mb-7">
@@ -49,6 +57,8 @@ export default function Hero() {
                     </div>
                 </div>
             </dh-component>
+            
+           
             {/* Code block ends */}
         </div>
         <OurService />

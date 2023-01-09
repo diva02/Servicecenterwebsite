@@ -1,13 +1,16 @@
+import Appbar from "../AppBar/AppBar";
 
 
 function Services(){
 return(
-  <><br /> <br />
+  <>
+  <Appbar />
+  <br /> <br />
   <div className='overflow-y-hidden'>
     <div className="pb-16" style={{ fontFamily: '"Lato", sans-serif' }}>
       {/* Code block starts */}
       <dh-component>
-        <section className="mx-auto container bg-white pt-16">
+        <section className="mx-auto container bg-white ">
           <div className="px-4 lg:px-0">
             <div role="contentinfo" className="flex items-center flex-col px-4">
               <p tabIndex={0} className="focus:outline-none uppercase text-sm text-center text-gray-500 leading-none">We From Chiptronix</p>
@@ -19,8 +22,10 @@ return(
           <div tabIndex={0} aria-label="group of cards" className="focus:outline-none px-4 lg:px-0">
             <div className="mx-auto container flex flex-wrap px-2 lg:px-24">
               <div tabIndex={0} aria-label="card 1" className="focus:outline-none flex sm:w-full md:w-1/2 lg:border-r md:border-r sm:border-r-0 border-indigo-400 pb-10 lg:pt-10">
-                <div className=" flex h-9 flex-shrink-0 mr-5 text-white">
-                  <img src="https://previews.123rf.com/images/ylivdesign/ylivdesign2001/ylivdesign200101336/137802332-no-electric-power-monitor-icon-outline-style.jpg" alt="drawer" />
+                <div className=" flex h-12 flex-shrink-0 mr-7 text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-8 h-12">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M5.636 5.636a9 9 0 1012.728 0M12 3v9" />
+</svg>
                 </div>
                 <div className="md:w-9/12 lg:w-9/12">
                   <h2 tabIndex={0} className="focus:outline-none text-lg font-semibold leading-5 text-white">No Power ON</h2>
@@ -28,7 +33,7 @@ return(
                 </div>
               </div>
               <div tabIndex={0} aria-label="card 2" className="focus:outline-none flex sm:w-full md:w-1/2 lg:pb-10 lg:pt-10">
-                <div className=" flex h-9 flex-shrink-0 sm:ml-0 md:ml-10 lg:ml-10 mr-5 text-white">
+                <div className=" flex h-12 flex-shrink-0 sm:ml-0 md:ml-10 lg:ml-10 mr-5 text-white">
                   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5T3i1djd4h4AwjtBf4wpZffZH6iB0M4i8Gw&usqp=CAU" alt="check" />
                 </div>
                 <div className="md:w-9/12 lg:w-9/12 ">
@@ -37,7 +42,7 @@ return(
                 </div>
               </div>
               <div tabIndex={0} aria-label="card 3" className="focus:outline-none flex sm:w-full md:w-1/2 lg:border-t md:border-t sm:border-t-0 lg:border-r md:border-r sm:border-r-0 border-indigo-400 pt-10 lg:pb-20">
-                <div className=" flex flex-shrink-0 mr-5 text-white">
+                <div className=" flex h-12 flex-shrink-0 mr-5 text-white">
                   <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/indigo_bg_with_divider-svg3.svg" alt="html-tag" />
                 </div>
                 <div className="md:w-9/12 lg:w-9/12 ">
@@ -46,7 +51,7 @@ return(
                 </div>
               </div>
               <div tabIndex={0} aria-label="card 4" className="focus:outline-none flex sm:w-full md:w-1/2 lg:border-t md:border-t sm:border-t-0 border-indigo-400 pt-10 lg:pb-20">
-                <div className=" flex h-9 flex-shrink-0 sm:ml-0 md:ml-10 lg:ml-10 mr-5 text-white">
+                <div className=" flex h-12 flex-shrink-0 sm:ml-0 md:ml-10 lg:ml-10 mr-5 text-white">
                   <img src="https://www.svgrepo.com/show/439178/hashing.svg" alt="display" />
                 </div>
                 <div className="md:w-9/12 lg:w-9/12 ">
@@ -60,7 +65,7 @@ return(
           <div tabIndex={0} aria-label="group of cards" className="focus:outline-none px-4 lg:px-0">
             <div className="mx-auto container flex flex-wrap px-2 lg:px-24">
               <div tabIndex={0} aria-label="card 5" className="focus:outline-none flex sm:w-full md:w-1/2 lg:border-t md:border-t sm:border-t-0 lg:border-r md:border-r sm:border-r-0 border-indigo-400 pt-10 lg:pb-20">
-                <div className=" flex h-9 flex-shrink-0 mr-5 text-white">
+                <div className=" flex h-12 flex-shrink-0 mr-5 text-white">
                   <img src="https://www.svgrepo.com/show/285661/television-monitor.svg" alt="drawer" />
                 </div>
                 <div className="md:w-9/12 lg:w-9/12">
@@ -69,7 +74,7 @@ return(
                 </div>
               </div>
               <div tabIndex={0} aria-label="card 6" className="focus:outline-none flex sm:w-full md:w-1/2 lg:border-t md:border-t sm:border-t-0 border-indigo-400 pt-10 lg:pb-20">
-                <div className=" flex flex-shrink-0 h-9 sm:ml-0 md:ml-10 lg:ml-10 mr-5 text-white">
+                <div className=" flex flex-shrink-0 h-12 sm:ml-0 md:ml-10 lg:ml-10 mr-5 text-white">
                   <img src="https://cdn-icons-png.flaticon.com/512/22/22978.png" alt="check" />
                 </div>
                 <div className="md:w-9/12 lg:w-9/12 ">
@@ -78,7 +83,7 @@ return(
                 </div>
               </div>
               <div tabIndex={0} aria-label="card 7" className="focus:outline-none flex sm:w-full md:w-1/2 lg:border-t md:border-t sm:border-t-0 lg:border-r md:border-r sm:border-r-0 border-indigo-400 pt-10 lg:pb-20">
-                <div className=" flex flex-shrink-0 h-9 mr-5 text-white">
+                <div className=" flex flex-shrink-0 h-12 mr-5 text-white">
                   <img src="https://cdn-icons-png.flaticon.com/512/22/22878.png" alt="" />
                 </div>
                 <div className="md:w-9/12 lg:w-9/12 ">
@@ -87,7 +92,7 @@ return(
                 </div>
               </div>
               <div tabIndex={0} aria-label="card 8" className="focus:outline-none flex sm:w-full md:w-1/2 lg:border-t md:border-t sm:border-t-0 border-indigo-400 pt-10 lg:pb-20">
-                <div className=" flex flex-shrink-0 h-9 sm:ml-0 md:ml-10 lg:ml-10 mr-5 text-white">
+                <div className=" flex flex-shrink-0 h-12 sm:ml-0 md:ml-10 lg:ml-10 mr-5 text-white">
                   <img src="https://cdn-icons-png.flaticon.com/512/4319/4319124.png" alt="display" />
                 </div>
                 <div className="md:w-9/12 lg:w-9/12 ">
@@ -100,7 +105,7 @@ return(
           <div tabIndex={0} aria-label="group of cards" className="focus:outline-none px-4 lg:px-0">
             <div className="mx-auto container flex flex-wrap px-2 lg:px-24">
               <div tabIndex={0} aria-label="card 9" className="focus:outline-none flex sm:w-full md:w-1/2 lg:border-t md:border-t sm:border-t-0 lg:border-r md:border-r sm:border-r-0 border-indigo-400 pt-10 lg:pb-20">
-                <div className=" flex h-9 flex-shrink-0 mr-5 text-white">
+                <div className=" flex h-14 flex-shrink-0 mr-5 text-white">
                   <img src="https://static.thenounproject.com/png/4756574-200.png" alt="drawer" />
                 </div>
                 <div className="md:w-9/12 lg:w-9/12">
@@ -109,7 +114,7 @@ return(
                 </div>
               </div>
               <div tabIndex={0} aria-label="card 10" className="focus:outline-none flex sm:w-full md:w-1/2 lg:border-t md:border-t sm:border-t-0 border-indigo-400 pt-10 lg:pb-20">
-                <div className=" flex flex-shrink-0 sm:ml-0 md:ml-10 lg:ml-10 mr-5 text-white">
+                <div className=" flex flex-shrink-0 h-12 sm:ml-0 md:ml-10 lg:ml-10 mr-5 text-white">
                   <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/indigo_bg_with_divider-svg2.svg" alt="check" />
                 </div>
                 <div className="md:w-9/12 lg:w-9/12 ">
@@ -118,7 +123,7 @@ return(
                 </div>
               </div>
               <div tabIndex={0} aria-label="card 11" className="focus:outline-none flex sm:w-full md:w-1/2 lg:border-t md:border-t sm:border-t-0 lg:border-r md:border-r sm:border-r-0 border-indigo-400 pt-10 lg:pb-20">
-                <div className=" flex h-9 flex-shrink-0 mr-5 text-white">
+                <div className=" flex h-12 flex-shrink-0 mr-5 text-white">
                   <img src="https://media.istockphoto.com/id/1319226635/de/vektor/wasserschaden-schwarzes-glyphensymbol.jpg?s=612x612&w=0&k=20&c=Wj0iNz5kjyikq6QHIHQDpdQN1c08zb3ESpCXFTABJDg=" alt="html-tag" />
                 </div>
                 <div className="md:w-9/12 lg:w-9/12 ">
@@ -127,7 +132,7 @@ return(
                 </div>
               </div>
               <div tabIndex={0} aria-label="card 12" className="focus:outline-none flex sm:w-full md:w-1/2 lg:border-t md:border-t sm:border-t-0 border-indigo-400 pt-10 lg:pb-20">
-                <div className=" flex flex-shrink-0 sm:ml-0 md:ml-10 lg:ml-10 mr-5 text-white">
+                <div className=" flex flex-shrink-0 h-12 sm:ml-0 md:ml-10 lg:ml-10 mr-5 text-white">
                   <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/indigo_bg_with_divider-svg4.svg" alt="display" />
                 </div>
                 <div className="md:w-9/12 lg:w-9/12 ">

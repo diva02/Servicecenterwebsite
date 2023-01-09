@@ -4,13 +4,12 @@ import Footer from "./Footer/Footer";
 import Services from "./Services/Services";
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import Spares from "./Spares/Spares";
-import Appbar from "./AppBar/AppBar";
 import Hero from "./hero/hero";
 
 function App() {
   return (
     <>
-   <Appbar />
+   
 <BrowserRouter>
     <Routes>
     <Route path="/" element={<Hero />} />

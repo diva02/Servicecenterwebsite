@@ -1,7 +1,9 @@
 import React from "react";
+import Appbar from "../AppBar/AppBar";
 export default function Contact() {
     return (
         <>
+        <Appbar />
      {/* About */}
         <div>
             <div className="2xl:mx-auto 2xl:container 2xl:px-20 px-6 ">
