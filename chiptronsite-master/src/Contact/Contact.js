@@ -89,7 +89,7 @@ systems.</p>
                                 <div className="w-full 2xl:pl-48 xl:pt-1">
                                     <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold tracking-wider text-indigo-700 ">We’re Here</h1>
                                     <div className="w-full md:w-10/12 mt-3">
-                                        <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider">We believe satisfication of customers is at the most important aspect of success of every business</h2>
+                                        <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider">We believe satisfication of customers is the most important aspect of success of every business</h2>
                                         <div className="mt-4 md:mt-8">
                                             <h2 className="text-sm md:text-base text-indigo-700 font-semibold">Address</h2>
                                             <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider mt-2">1st Floor ARG Complex, Sathy Road(Near BusStand),Erode-638003</h2>
