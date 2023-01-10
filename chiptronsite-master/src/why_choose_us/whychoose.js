@@ -106,9 +106,9 @@ function WhyChooseUs() {
                             </div>
                         </div>
                     </div>
-                <div className="py-12 xl:w-1/2 lg:w-1/3 sm:w-1/2">
-                        <img src="https://images.squarespace-cdn.com/content/v1/5a132025be42d634395e16f2/1602132207761-M90SE3G7HUU3LU5YOSK0/Laptop+Repair.jpg?format=1500w" alt="" className="h-full rounded-md object-cover object-center md:block hidden" />
-                        <img src="https://images.squarespace-cdn.com/content/v1/5a132025be42d634395e16f2/1602132207761-M90SE3G7HUU3LU5YOSK0/Laptop+Repair.jpg?format=1500w" alt="Our Work" className="h-auto w-auto md:hidden block" />
+                <div className="py-12 xl:w-1/2 lg:w-1/2 sm:w-1/2">
+                        <img src="http://www.chiptronix.in/img/corporate.jpg" alt="Our Work" className="h-full rounded-md object-cover object-center md:block hidden" />
+                        <img src="http://www.chiptronix.in/img/corporate.jpg" alt="Our Work" className="h-auto w-auto md:hidden block" />
                     </div>
                     </div>
             </div>
