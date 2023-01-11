@@ -12,10 +12,11 @@ export default function Hero() {
     
     return (
         <>
+            <Appbar />
             <div className="">
-            <Caro /> 
+            <Caro />
             </div>
-<Appbar />
+     
         <div className=" pb-72 pt-10 bg-white overflow-y-hidden">
         
             {/* Code block starts */}
